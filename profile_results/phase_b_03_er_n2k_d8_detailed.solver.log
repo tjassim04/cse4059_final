@@ -1,0 +1,284 @@
+data graph:           2000 vertices, 7922 logical edges
+queries:              15
+initial frontier cap: 1048576
+
+=== Query: edge_2 ===
+  NLF candidates total=3998 p0=1999 p1=1999
+  sym_pred: -1 0
+  [CPU] depth 1 frontier: 1999
+  [CPU] depth 2 frontier: 7922
+  [GPU] depth 1 frontier: 1999
+  [GPU] depth 2 frontier: 7922
+  CPU matches: 7922, time: 28.9892 ms
+  GPU matches: 7922, time: 1292.02 ms
+  GPU per-depth ms: 972.094 319.897
+  Speedup: 0.0224372x
+  Correctness: PASS
+
+=== Query: path_3 ===
+  NLF candidates total=5993 p0=1999 p1=1995 p2=1999
+  sym_pred: -1 -1 0
+  [CPU] depth 1 frontier: 1999
+  [CPU] depth 2 frontier: 15840
+  [CPU] depth 3 frontier: 63382
+  [GPU] depth 1 frontier: 1999
+  [GPU] depth 2 frontier: 15840
+  [GPU] depth 3 frontier: 63382
+  CPU matches: 63382, time: 402.95 ms
+  GPU matches: 63382, time: 1080.99 ms
+  GPU per-depth ms: 289.294 326.169 465.512
+  Speedup: 0.372759x
+  Correctness: PASS
+
+=== Query: triangle_3 ===
+  NLF candidates total=5985 p0=1995 p1=1995 p2=1995
+  sym_pred: -1 0 1
+  [CPU] depth 1 frontier: 1995
+  [CPU] depth 2 frontier: 7918
+  [CPU] depth 3 frontier: 80
+  [GPU] depth 1 frontier: 1995
+  [GPU] depth 2 frontier: 7918
+  [GPU] depth 3 frontier: 80
+  CPU matches: 80, time: 113.191 ms
+  GPU matches: 80, time: 956.576 ms
+  GPU per-depth ms: 292.517 311.254 352.759
+  Speedup: 0.11833x
+  Correctness: PASS
+
+=== Query: path_4 ===
+  NLF candidates total=7988 p0=1999 p1=1995 p2=1995 p3=1999
+  sym_pred: -1 -1 1 0
+  [CPU] depth 1 frontier: 1999
+  [CPU] depth 2 frontier: 15840
+  [CPU] depth 3 frontier: 63113
+  [CPU] depth 4 frontier: 257517
+  [GPU] depth 1 frontier: 1999
+  [GPU] depth 2 frontier: 15840
+  [GPU] depth 3 frontier: 63113
+  [GPU] depth 4 frontier: 257517
+  CPU matches: 257517, time: 1827.17 ms
+  GPU matches: 257517, time: 2458.79 ms
+  GPU per-depth ms: 305.684 330.091 475.855 1347.13
+  Speedup: 0.743115x
+  Correctness: PASS
+
+=== Query: star_4 ===
+  NLF candidates total=7967 p0=1970 p1=1999 p2=1999 p3=1999
+  sym_pred: -1 -1 1 2
+  [CPU] depth 1 frontier: 1970
+  [CPU] depth 2 frontier: 15790
+  [CPU] depth 3 frontier: 63357
+  [CPU] depth 4 frontier: 170836
+  [GPU] depth 1 frontier: 1970
+  [GPU] depth 2 frontier: 15790
+  [GPU] depth 3 frontier: 63357
+  [GPU] depth 4 frontier: 170836
+  CPU matches: 170836, time: 968.94 ms
+  GPU matches: 170836, time: 2229.8 ms
+  GPU per-depth ms: 286.955 328.496 464.035 1150.28
+  Speedup: 0.434542x
+  Correctness: PASS
+
+=== Query: cycle_4 ===
+  NLF candidates total=7980 p0=1995 p1=1995 p2=1995 p3=1995
+  sym_pred: -1 0 1 2
+  [CPU] depth 1 frontier: 1995
+  [CPU] depth 2 frontier: 7918
+  [CPU] depth 3 frontier: 21253
+  [CPU] depth 4 frontier: 186
+  [GPU] depth 1 frontier: 1995
+  [GPU] depth 2 frontier: 7918
+  [GPU] depth 3 frontier: 21253
+  [GPU] depth 4 frontier: 186
+  CPU matches: 186, time: 335.819 ms
+  GPU matches: 186, time: 1426.72 ms
+  GPU per-depth ms: 292.284 312.748 362.807 458.852
+  Speedup: 0.235379x
+  Correctness: PASS
+
+=== Query: tailed_triangle_4 ===
+  NLF candidates total=7959 p0=1995 p1=1995 p2=1970 p3=1999
+  sym_pred: -1 0 -1 -1
+  [CPU] depth 1 frontier: 1995
+  [CPU] depth 2 frontier: 7918
+  [CPU] depth 3 frontier: 240
+  [CPU] depth 4 frontier: 1896
+  [GPU] depth 1 frontier: 1995
+  [GPU] depth 2 frontier: 7918
+  [GPU] depth 3 frontier: 240
+  [GPU] depth 4 frontier: 1896
+  CPU matches: 1896, time: 297.966 ms
+  GPU matches: 1896, time: 1304.27 ms
+  GPU per-depth ms: 286.118 315.944 407.121 295.066
+  Speedup: 0.228454x
+  Correctness: PASS
+
+=== Query: diamond_4 ===
+  NLF candidates total=7930 p0=1970 p1=1970 p2=1995 p3=1995
+  sym_pred: -1 0 -1 2
+  [CPU] depth 1 frontier: 1970
+  [CPU] depth 2 frontier: 7868
+  [CPU] depth 3 frontier: 240
+  [CPU] depth 4 frontier: 3
+  [GPU] depth 1 frontier: 1970
+  [GPU] depth 2 frontier: 7868
+  [GPU] depth 3 frontier: 240
+  [GPU] depth 4 frontier: 3
+  CPU matches: 3, time: 292.33 ms
+  GPU matches: 3, time: 1297.9 ms
+  GPU per-depth ms: 289.468 314.417 405.008 288.984
+  Speedup: 0.225233x
+  Correctness: PASS
+
+=== Query: clique_4 ===
+  NLF candidates total=7876 p0=1969 p1=1969 p2=1969 p3=1969
+  sym_pred: -1 0 1 2
+  [CPU] depth 1 frontier: 1969
+  [CPU] depth 2 frontier: 7866
+  [CPU] depth 3 frontier: 80
+  [CPU] depth 4 frontier: 0
+  [GPU] depth 1 frontier: 1969
+  [GPU] depth 2 frontier: 7866
+  [GPU] depth 3 frontier: 80
+  [GPU] depth 4 frontier: 0
+  CPU matches: 0, time: 105.028 ms
+  GPU matches: 0, time: 1248.97 ms
+  GPU per-depth ms: 291.275 318.04 352.229 287.398
+  Speedup: 0.0840918x
+  Correctness: PASS
+
+=== Query: path_5 ===
+  NLF candidates total=9983 p0=1999 p1=1995 p2=1995 p3=1995 p4=1999
+  sym_pred: -1 -1 -1 1 0
+  [CPU] depth 1 frontier: 1999
+  [CPU] depth 2 frontier: 15840
+  [CPU] depth 3 frontier: 126726
+  [CPU] depth 4 frontier: 504663
+  [CPU] depth 5 frontier: 2045920
+  [GPU] depth 1 frontier: 1999
+  [GPU] depth 2 frontier: 15840
+  [GPU] depth 3 frontier: 126726
+  [GPU] depth 4 frontier: 504663
+  [depth 4] frontier resize: 1048576 -> 3068880 (needed 2045920)
+  [GPU] depth 5 frontier: 2045920
+  CPU matches: 2045920, time: 15518.8 ms
+  GPU matches: 2045920, time: 26134.8 ms (1 resize(s))
+  GPU per-depth ms: 310.508 324.828 562.968 2647.91 22288.6
+  Speedup: 0.593797x
+  Correctness: PASS
+
+=== Query: star_5 ===
+  NLF candidates total=9903 p0=1907 p1=1999 p2=1999 p3=1999 p4=1999
+  sym_pred: -1 -1 1 2 3
+  [CPU] depth 1 frontier: 1907
+  [CPU] depth 2 frontier: 15601
+  [CPU] depth 3 frontier: 63168
+  [CPU] depth 4 frontier: 170773
+  [CPU] depth 5 frontier: 347964
+  [GPU] depth 1 frontier: 1907
+  [GPU] depth 2 frontier: 15601
+  [GPU] depth 3 frontier: 63168
+  [GPU] depth 4 frontier: 170773
+  [GPU] depth 5 frontier: 347964
+  CPU matches: 347964, time: 2357.16 ms
+  GPU matches: 347964, time: 5390.89 ms
+  GPU per-depth ms: 293.137 323.117 454.78 1152.16 3167.66
+  Speedup: 0.437247x
+  Correctness: PASS
+
+=== Query: cycle_5 ===
+  NLF candidates total=9975 p0=1995 p1=1995 p2=1995 p3=1995 p4=1995
+  sym_pred: -1 0 1 2 3
+  [CPU] depth 1 frontier: 1995
+  [CPU] depth 2 frontier: 7918
+  [CPU] depth 3 frontier: 21253
+  [CPU] depth 4 frontier: 42784
+  [CPU] depth 5 frontier: 296
+  [GPU] depth 1 frontier: 1995
+  [GPU] depth 2 frontier: 7918
+  [GPU] depth 3 frontier: 21253
+  [GPU] depth 4 frontier: 42784
+  [GPU] depth 5 frontier: 296
+  CPU matches: 296, time: 715.558 ms
+  GPU matches: 296, time: 5352.69 ms
+  GPU per-depth ms: 3297.76 313.986 366.655 475.083 899.167
+  Speedup: 0.133682x
+  Correctness: PASS
+
+=== Query: house_5 ===
+  NLF candidates total=9925 p0=1995 p1=1970 p2=1970 p3=1995 p4=1995
+  sym_pred: -1 -1 1 0 -1
+  [CPU] depth 1 frontier: 1995
+  [CPU] depth 2 frontier: 15786
+  [CPU] depth 3 frontier: 62832
+  [CPU] depth 4 frontier: 1112
+  [CPU] depth 5 frontier: 36
+  [GPU] depth 1 frontier: 1995
+  [GPU] depth 2 frontier: 15786
+  [GPU] depth 3 frontier: 62832
+  [GPU] depth 4 frontier: 1112
+  [GPU] depth 5 frontier: 36
+  CPU matches: 36, time: 1369.95 ms
+  GPU matches: 36, time: 2639.2 ms
+  GPU per-depth ms: 289.349 327.81 460.647 1244.57 316.794
+  Speedup: 0.519077x
+  Correctness: PASS
+
+=== Query: bowtie_5 ===
+  NLF candidates total=9887 p0=1907 p1=1995 p2=1995 p3=1995 p4=1995
+  sym_pred: -1 -1 1 2 3
+  [CPU] depth 1 frontier: 1907
+  [CPU] depth 2 frontier: 15597
+  [CPU] depth 3 frontier: 238
+  [CPU] depth 4 frontier: 668
+  [CPU] depth 5 frontier: 6
+  [GPU] depth 1 frontier: 1907
+  [GPU] depth 2 frontier: 15597
+  [GPU] depth 3 frontier: 238
+  [GPU] depth 4 frontier: 668
+  [GPU] depth 5 frontier: 6
+  CPU matches: 6, time: 349.293 ms
+  GPU matches: 6, time: 1650.72 ms
+  GPU per-depth ms: 284.196 329.438 441.997 294.965 300.092
+  Speedup: 0.2116x
+  Correctness: PASS
+
+=== Query: clique_5 ===
+  NLF candidates total=9500 p0=1900 p1=1900 p2=1900 p3=1900 p4=1900
+  sym_pred: -1 0 1 2 3
+  [CPU] depth 1 frontier: 1900
+  [CPU] depth 2 frontier: 7659
+  [CPU] depth 3 frontier: 78
+  [CPU] depth 4 frontier: 0
+  [GPU] depth 1 frontier: 1900
+  [GPU] depth 2 frontier: 7659
+  [GPU] depth 3 frontier: 78
+  [GPU] depth 4 frontier: 0
+  CPU matches: 0, time: 99.3409 ms
+  GPU matches: 0, time: 1247.47 ms
+  GPU per-depth ms: 289.72 313.694 355.159 288.874 0
+  Speedup: 0.0796337x
+  Correctness: PASS
+
+=== Summary ===
+queries: 15  passes: 15  fails: 0
+total CPU time: 24774 ms
+total GPU time: 55702 ms
+aggregate speedup: 0.44476x
+
+name,cpu_matches,gpu_matches,cpu_ms,gpu_ms,speedup,ok
+edge_2,7922,7922,28.9892,1292.02,0.0224372,PASS
+path_3,63382,63382,402.95,1080.99,0.372759,PASS
+triangle_3,80,80,113.191,956.576,0.11833,PASS
+path_4,257517,257517,1827.17,2458.79,0.743115,PASS
+star_4,170836,170836,968.94,2229.8,0.434542,PASS
+cycle_4,186,186,335.819,1426.72,0.235379,PASS
+tailed_triangle_4,1896,1896,297.966,1304.27,0.228454,PASS
+diamond_4,3,3,292.33,1297.9,0.225233,PASS
+clique_4,0,0,105.028,1248.97,0.0840918,PASS
+path_5,2045920,2045920,15518.8,26134.8,0.593797,PASS
+star_5,347964,347964,2357.16,5390.89,0.437247,PASS
+cycle_5,296,296,715.558,5352.69,0.133682,PASS
+house_5,36,36,1369.95,2639.2,0.519077,PASS
+bowtie_5,6,6,349.293,1650.72,0.2116,PASS
+clique_5,0,0,99.3409,1247.47,0.0796337,PASS

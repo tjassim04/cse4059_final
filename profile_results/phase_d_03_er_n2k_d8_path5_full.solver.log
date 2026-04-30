@@ -1,0 +1,32 @@
+data graph:           2000 vertices, 7922 logical edges
+queries:              1
+initial frontier cap: 1048576
+
+=== Query: path_5 ===
+  NLF candidates total=9983 p0=1999 p1=1995 p2=1995 p3=1995 p4=1999
+  sym_pred: -1 -1 -1 1 0
+  [CPU] depth 1 frontier: 1999
+  [CPU] depth 2 frontier: 15840
+  [CPU] depth 3 frontier: 126726
+  [CPU] depth 4 frontier: 504663
+  [CPU] depth 5 frontier: 2045920
+  [GPU] depth 1 frontier: 1999
+  [GPU] depth 2 frontier: 15840
+  [GPU] depth 3 frontier: 126726
+  [GPU] depth 4 frontier: 504663
+  [depth 4] frontier resize: 1048576 -> 3068880 (needed 2045920)
+  [GPU] depth 5 frontier: 2045920
+  CPU matches: 2045920, time: 15493.9 ms
+  GPU matches: 2045920, time: 20829.2 ms (1 resize(s))
+  GPU per-depth ms: 1321.05 618.088 890.372 4056.23 13943.5
+  Speedup: 0.743854x
+  Correctness: PASS
+
+=== Summary ===
+queries: 1  passes: 1  fails: 0
+total CPU time: 15493 ms
+total GPU time: 20829 ms
+aggregate speedup: 0.743819x
+
+name,cpu_matches,gpu_matches,cpu_ms,gpu_ms,speedup,ok
+path_5,2045920,2045920,15493.9,20829.2,0.743854,PASS

@@ -1,0 +1,15 @@
+profile_suite.sh manifest
+generated: Thu Apr 30 17:56:47 CDT 2026
+elapsed:   186s
+solver:    /home/compute/c.myoung/cse4059_final/bin/release/Subgraph_Solution
+suite:     /home/compute/c.myoung/cse4059_final/bin/release/suite
+
+Files:
+-rw-r--r--. 1 c.myoung domainusers 1434813 Apr 30 17:54 /home/compute/c.myoung/cse4059_final/bin/release/profile_results/phase_a_02_er_n1k_d6_detailed.csv
+-rw-r--r--. 1 c.myoung domainusers 2261934 Apr 30 17:55 /home/compute/c.myoung/cse4059_final/bin/release/profile_results/phase_b_03_er_n2k_d8_detailed.csv
+-rw-r--r--. 1 c.myoung domainusers  269788 Apr 30 17:55 /home/compute/c.myoung/cse4059_final/bin/release/profile_results/phase_c_01_motif_n300_basic.csv
+-rw-r--r--. 1 c.myoung domainusers  262679 Apr 30 17:55 /home/compute/c.myoung/cse4059_final/bin/release/profile_results/phase_c_02_er_n1k_d6_basic.csv
+-rw-r--r--. 1 c.myoung domainusers  293637 Apr 30 17:55 /home/compute/c.myoung/cse4059_final/bin/release/profile_results/phase_c_03_er_n2k_d8_basic.csv
+-rw-r--r--. 1 c.myoung domainusers  632902 Apr 30 17:56 /home/compute/c.myoung/cse4059_final/bin/release/profile_results/phase_d_03_er_n2k_d8_path5_full.csv
+-rw-r--r--. 1 c.myoung domainusers  317988 Apr 30 17:56 /home/compute/c.myoung/cse4059_final/bin/release/profile_results/phase_e_03_er_n2k_d8_roofline.csv
+-rw-r--r--. 1 c.myoung domainusers   16828 Apr 30 17:53 /home/compute/c.myoung/cse4059_final/bin/release/profile_results/_sanity_check.csv
