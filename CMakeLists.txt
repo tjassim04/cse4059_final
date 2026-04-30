@@ -202,8 +202,8 @@ endif (BUILD_LIBGPUTK_LIBRARY)
 # ======================================================
 # Single‑lab build: Convolution (flat source structure)
 # ======================================================
-add_lab_solution("Convolution" solution.cu)
-add_generator("Convolution" dataset_generator.cpp)
+add_lab_solution("Subgraph" solution.cu)
+add_generator("Subgraph" dataset_generator.cpp)
 set_source_files_properties(dataset_generator.cpp PROPERTIES LANGUAGE CUDA)
 
 # Uncomment the following if you copied the description files (markdown, pdf, etc.)
