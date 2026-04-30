@@ -1,0 +1,12 @@
+build/
+bin/
+*.o
+*.a
+*.ptx
+*.cubin
+*.log
+tmp/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
