@@ -1,0 +1,11 @@
+num_vertices 1000
+num_edges 1400
+pattern_vertices 3
+pattern_edges 3
+planted_triangles 200
+bipartite_left_size 200
+bipartite_right_size 200
+bipartite_edges 800
+seed 42
+expected_unique_triangles 200
+expected_embeddings 1200

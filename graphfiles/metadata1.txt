@@ -1,0 +1,19 @@
+seed 42
+num_vertices 1243
+num_edges 1312
+total_components 300
+planted_components bowtie_5 16
+planted_components clique_4 25
+planted_components clique_5 20
+planted_components cycle_4 18
+planted_components cycle_5 21
+planted_components diamond_4 14
+planted_components edge_2 16
+planted_components house_5 20
+planted_components path_3 26
+planted_components path_4 27
+planted_components path_5 18
+planted_components star_4 20
+planted_components star_5 24
+planted_components tailed_triangle_4 17
+planted_components triangle_3 18

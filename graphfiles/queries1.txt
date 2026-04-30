@@ -1,0 +1,15 @@
+edge_2 patterns/pattern_edge_2.txt 2
+path_3 patterns/pattern_path_3.txt 3
+triangle_3 patterns/pattern_triangle_3.txt 3
+path_4 patterns/pattern_path_4.txt 4
+star_4 patterns/pattern_star_4.txt 4
+cycle_4 patterns/pattern_cycle_4.txt 4
+tailed_triangle_4 patterns/pattern_tailed_triangle_4.txt 4
+diamond_4 patterns/pattern_diamond_4.txt 4
+clique_4 patterns/pattern_clique_4.txt 4
+path_5 patterns/pattern_path_5.txt 5
+star_5 patterns/pattern_star_5.txt 5
+cycle_5 patterns/pattern_cycle_5.txt 5
+house_5 patterns/pattern_house_5.txt 5
+bowtie_5 patterns/pattern_bowtie_5.txt 5
+clique_5 patterns/pattern_clique_5.txt 5
